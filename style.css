@@ -22,7 +22,9 @@ body{
 
 /* organizando tamanho, cor e posição de cada quadrado*/
 .q1{
+
     /* width e height para dar o tamanho e a largura certa aos quadrados */
+    top: 100px;
     width: 80px;
     height: 80px;
     margin: 80px;
@@ -30,26 +32,31 @@ body{
 
 }
 .q2{
+    /* top para subir o quadrado */
+    top: 100px;
     width: 80px;
     height: 80px;
 /* margin-left para definir a posição na esquerda */
-    margin-left: 860px;
+    margin-left: 840px;
     background-color: #fdc57b;
 }
 .q3{
+    bottom: 100px;
     width: 80px;
     height: 80px;
     margin: 80px;
+    margin-left: 80px;
 /* margin-top para definir o quão para baixo o quadrado ficará */
-    margin-top: 300px;  
+    margin-top: 180px;  
     background-color: #fdc57b;
 }
 .q4{
+    bottom: 100px;
     width: 80px;
     height: 80px;
     margin: 80px;
-    margin-left: 860px;
-    margin-top: 300px;
+    margin-left: 840px;
+    margin-top:  180px;
     /* background-color para definir a cor do fundo do quadrado */
     background-color: #fdc57b;
 }
