@@ -1,0 +1,53 @@
+*{
+    /* resetar a pagina */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* pintar o fundo da pagina*/
+    background-color: #62374e;
+    
+    /* adequando tamanhos */
+
+    width: 400px;
+    height: 500px;
+}
+.quadrados{
+    /*arrumando em colunas */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+/* organizando tamanho, cor e posição de cada quadrado*/
+.q1{
+
+    width: 80px;
+    height: 80px;
+    margin: 80px;
+    align-self: center;
+    background-color: #fdc57b;
+}
+.q2{
+    width: 80px;
+    height: 80px;
+    margin-left: 860px;
+    align-items: flex-end;
+    background-color: #fdc57b;
+}
+.q3{
+    width: 80px;
+    height: 80px;
+    margin: 80px;
+    align-self: center;
+    background-color: #fdc57b;
+}
+.q4{
+    width: 80px;
+    height: 80px;
+    margin: 80px;
+    margin-left: 860px;
+    align-self: center;
+    background-color: #fdc57b;
+}
