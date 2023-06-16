@@ -1,62 +1,59 @@
 *{
-    /* resetar a pagina */
-    margin: 0;
+    margin:0;
     padding: 0;
+    box-sizing:border-box;
+    overflow: hidden; 
+    background-color:#62374e;
 }
 
-body{
-    /* pintar o fundo da pagina*/
-    background-color: #62374e;
-    
-    /* adequando tamanhos */
+/* Criando os quadrados */
 
-    width: 400px;
-    height: 500px;
-}
-.quadrados{
-    /*arrumando em colunas */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+/* Definindo a cor, tamanho e posição de cada quadrado */
+
+.quadrado{
+    background-color:#fdc57b ;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 8%;
+    margin-top: 5%;
 }
 
-/* organizando tamanho, cor e posição de cada quadrado*/
-.q1{
+/* Mudando somente sua posição */
+.quadrado2{
+    background-color:#fdc57b ;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: 0;
+    margin-right: 8%;
+    margin-top: 5%;
 
-    /* width e height para dar o tamanho e a largura certa aos quadrados */
-    top: 100px;
-    width: 80px;
-    height: 80px;
-    margin: 80px;
-    background-color: #fdc57b;
+}
+/* Adequando somente sua posição */
+.quadrado3{
+    background-color:#fdc57b ;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    margin-left: 8%;
+    margin-bottom: 5%;
 
 }
-.q2{
-    /* top para subir o quadrado */
-    top: 100px;
-    width: 80px;
-    height: 80px;
-/* margin-left para definir a posição na esquerda */
-    margin-left: 840px;
-    background-color: #fdc57b;
-}
-.q3{
-    bottom: 100px;
-    width: 80px;
-    height: 80px;
-    margin: 80px;
-    margin-left: 80px;
-/* margin-top para definir o quão para baixo o quadrado ficará */
-    margin-top: 180px;  
-    background-color: #fdc57b;
-}
-.q4{
-    bottom: 100px;
-    width: 80px;
-    height: 80px;
-    margin: 80px;
-    margin-left: 840px;
-    margin-top:  180px;
-    /* background-color para definir a cor do fundo do quadrado */
-    background-color: #fdc57b;
+
+
+.quadrado4{
+    background-color:#fdc57b ;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    margin-right: 8%;
+    margin-bottom: 5%;
+
+
 }
