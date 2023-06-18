@@ -10,7 +10,7 @@
 
 /* Definindo a cor, tamanho e posição de cada quadrado */
 
-.quadrado{
+.q1{
     background-color:#fdc57b ;
     position: absolute;
     width: 100px;
@@ -20,7 +20,7 @@
 }
 
 /* Mudando somente sua posição */
-.quadrado2{
+.q2{
     background-color:#fdc57b ;
     position: absolute;
     width: 100px;
@@ -32,7 +32,7 @@
 
 }
 /* Adequando somente sua posição */
-.quadrado3{
+.q3{
     background-color:#fdc57b ;
     position: absolute;
     width: 100px;
@@ -45,8 +45,8 @@
 }
 
 
-.quadrado4{
-    background-color:#fdc57b ;
+.q4{
+    background-color:#fdc57b;
     position: absolute;
     width: 100px;
     height: 100px;
